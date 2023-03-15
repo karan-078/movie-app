@@ -31,7 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
  ## React-Router
- we are react-router 18 for routing
+ we are use react-router 18 for routing
 
  ## Talwind css
  we are use tawind  for style this website
