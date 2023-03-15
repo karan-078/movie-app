@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Noto+Sans+JP:wght@400;500&family=Roboto+Condensed:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* body{
+background-color: aliceblue;   
+} */
+
+.card-details {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid rgba(26, 25, 25, 0.45);
+}
+
+.card-details:hover {
+    border: 1px solid rgba(0, 0, 0, 0.735);
+}
+
+.image1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.serach {
+    border: 1px solid rgba(147, 146, 146, 0.365);
+    padding: 2px;
+    width: 18rem;
+    border-radius: 12px;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.serach:hover {
+    border: 1px solid rgb(147, 146, 146);
+}
+
+input {
+    outline: none;
+    width: full;
+    padding: 2px 8px;
+    border-radius: 12px;
+
+}
+
+span {
+    padding-right: 4px;
+    color: black;
+    font-weight: bolder;
+}
+
+.logo {
+    color: rgb(203, 203, 44);
 }
